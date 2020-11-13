@@ -29,7 +29,7 @@ node {
             sh 'mvn clean package -f pom.xml -Dmaven.test.skip=true'
 //            sh 'mvn clean -f xuanzhuang-api-test/pom.xml test '
         }
-        sh 'java -jar target/testng-1.0-SNAPSHOT.jar dev'
+        sh 'java -jar target/testng-1.0-SNAPSHOT.jar test'
     }
 
 
